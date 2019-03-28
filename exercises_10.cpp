@@ -32,6 +32,7 @@ int getMin(int* arr, int length)
     {
         if(p2 - p1 == 1 )
         {
+            middle = p2;
             break;
         }
         middle = (p2+p1)/2;
